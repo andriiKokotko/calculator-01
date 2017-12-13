@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+input {
+    height: 40px;
+    align-self: center;
+    grid-column: 2/5;
+    border: 1px solid rgb(197, 54, 102);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(197, 54, 102);
+}
+
+#equals {
+    grid-column: 3/5;
+    width: 100%;
+    transition: 0.3s;
+}
+
+#cancel:active, #clear:active, #equals:active {
+    background-color: rgb(226, 97, 114);
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+button:active {
+    background-color: rgb(145, 145, 145);
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(231, 91, 73);
+    box-shadow: 3px 3px 10px rgb(110, 110, 110);
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+.main-content {
+    margin: 0;
+    padding: 10px;
+    background: rgb(233, 233, 233);
+    box-shadow: 3px 3px 10px rgb(110, 110, 110);
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 5px;
+}
